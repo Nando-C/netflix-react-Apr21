@@ -28,7 +28,7 @@ const ShowDetail = ({match}) => {
                         <Col md={4}>
                             <img src={selectedMovie.Poster} alt="pic" className='m-5'/>
                         </Col>
-                        <Col md={8} className='p-4'>>
+                        <Col md={8} className='p-4'>
                             <h2 className='my-2'>Title: <br /> {selectedMovie.Title}</h2>
                             <h2 className='my-1'>Year:  {selectedMovie.Year}</h2>
                             <h2 className='my-1'>Rated: {selectedMovie.Rated}</h2>
